@@ -13,6 +13,7 @@ class PlanetListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       view.backgroundColor = .black
+      self.title = "Planets"
     }
 
     override func didReceiveMemoryWarning() {
