@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6346B1821E96B45F0012192C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346B1811E96B45F0012192C /* AppDelegate.swift */; };
+		6346B1871E96B45F0012192C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1851E96B45F0012192C /* Main.storyboard */; };
+		6346B1891E96B45F0012192C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1881E96B45F0012192C /* Assets.xcassets */; };
+		6346B18C1E96B45F0012192C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346B18A1E96B45F0012192C /* LaunchScreen.storyboard */; };
+		6346B1941E96B4E90012192C /* PlanetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346B1931E96B4E90012192C /* PlanetListViewController.swift */; };
+		6346B1981E96B9300012192C /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346B1971E96B9300012192C /* PlanetController.swift */; };
+		6346B19A1E96EA9A0012192C /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346B1991E96EA9A0012192C /* Planet.swift */; };
+		6346B19C1E96F1260012192C /* PlanetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6346B19B1E96F1260012192C /* PlanetDetailViewController.swift */; };
+		6346B1A61E9707500012192C /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B19D1E9707500012192C /* earth.png */; };
+		6346B1A71E9707500012192C /* jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B19E1E9707500012192C /* jupiter.png */; };
+		6346B1A81E9707500012192C /* mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B19F1E9707500012192C /* mars.png */; };
+		6346B1A91E9707500012192C /* mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1A01E9707500012192C /* mercury.png */; };
+		6346B1AA1E9707500012192C /* neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1A11E9707500012192C /* neptune.png */; };
+		6346B1AB1E9707500012192C /* pluto.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1A21E9707500012192C /* pluto.png */; };
+		6346B1AC1E9707500012192C /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1A31E9707500012192C /* saturn.png */; };
+		6346B1AD1E9707500012192C /* uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1A41E9707500012192C /* uranus.png */; };
+		6346B1AE1E9707500012192C /* venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1A51E9707500012192C /* venus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6346B17E1E96B45F0012192C /* DM-SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DM-SolarSystem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6346B1811E96B45F0012192C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6346B1861E96B45F0012192C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6346B1881E96B45F0012192C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6346B18B1E96B45F0012192C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6346B18D1E96B45F0012192C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6346B1931E96B4E90012192C /* PlanetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetListViewController.swift; sourceTree = "<group>"; };
+		6346B1971E96B9300012192C /* PlanetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanetController.swift; path = ../PlanetController.swift; sourceTree = "<group>"; };
+		6346B1991E96EA9A0012192C /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		6346B19B1E96F1260012192C /* PlanetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewController.swift; sourceTree = "<group>"; };
+		6346B19D1E9707500012192C /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth.png; path = "../../../../Desktop/ios and calculator stuff/planet images/earth.png"; sourceTree = "<group>"; };
+		6346B19E1E9707500012192C /* jupiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jupiter.png; path = "../../../../Desktop/ios and calculator stuff/planet images/jupiter.png"; sourceTree = "<group>"; };
+		6346B19F1E9707500012192C /* mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mars.png; path = "../../../../Desktop/ios and calculator stuff/planet images/mars.png"; sourceTree = "<group>"; };
+		6346B1A01E9707500012192C /* mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mercury.png; path = "../../../../Desktop/ios and calculator stuff/planet images/mercury.png"; sourceTree = "<group>"; };
+		6346B1A11E9707500012192C /* neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neptune.png; path = "../../../../Desktop/ios and calculator stuff/planet images/neptune.png"; sourceTree = "<group>"; };
+		6346B1A21E9707500012192C /* pluto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pluto.png; path = "../../../../Desktop/ios and calculator stuff/planet images/pluto.png"; sourceTree = "<group>"; };
+		6346B1A31E9707500012192C /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saturn.png; path = "../../../../Desktop/ios and calculator stuff/planet images/saturn.png"; sourceTree = "<group>"; };
+		6346B1A41E9707500012192C /* uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uranus.png; path = "../../../../Desktop/ios and calculator stuff/planet images/uranus.png"; sourceTree = "<group>"; };
+		6346B1A51E9707500012192C /* venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = venus.png; path = "../../../../Desktop/ios and calculator stuff/planet images/venus.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6346B17B1E96B45F0012192C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6346B1751E96B45F0012192C = {
+			isa = PBXGroup;
+			children = (
+				6346B1801E96B45F0012192C /* DM-SolarSystem */,
+				6346B17F1E96B45F0012192C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6346B17F1E96B45F0012192C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6346B17E1E96B45F0012192C /* DM-SolarSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6346B1801E96B45F0012192C /* DM-SolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6346B1811E96B45F0012192C /* AppDelegate.swift */,
+				6346B1851E96B45F0012192C /* Main.storyboard */,
+				6346B19B1E96F1260012192C /* PlanetDetailViewController.swift */,
+				6346B1931E96B4E90012192C /* PlanetListViewController.swift */,
+				6346B1971E96B9300012192C /* PlanetController.swift */,
+				6346B1991E96EA9A0012192C /* Planet.swift */,
+				6346B1881E96B45F0012192C /* Assets.xcassets */,
+				6346B19D1E9707500012192C /* earth.png */,
+				6346B19E1E9707500012192C /* jupiter.png */,
+				6346B19F1E9707500012192C /* mars.png */,
+				6346B1A01E9707500012192C /* mercury.png */,
+				6346B1A11E9707500012192C /* neptune.png */,
+				6346B1A21E9707500012192C /* pluto.png */,
+				6346B1A31E9707500012192C /* saturn.png */,
+				6346B1A41E9707500012192C /* uranus.png */,
+				6346B1A51E9707500012192C /* venus.png */,
+				6346B18A1E96B45F0012192C /* LaunchScreen.storyboard */,
+				6346B18D1E96B45F0012192C /* Info.plist */,
+			);
+			path = "DM-SolarSystem";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6346B17D1E96B45F0012192C /* DM-SolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6346B1901E96B45F0012192C /* Build configuration list for PBXNativeTarget "DM-SolarSystem" */;
+			buildPhases = (
+				6346B17A1E96B45F0012192C /* Sources */,
+				6346B17B1E96B45F0012192C /* Frameworks */,
+				6346B17C1E96B45F0012192C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DM-SolarSystem";
+			productName = "DM-SolarSystem";
+			productReference = 6346B17E1E96B45F0012192C /* DM-SolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6346B1761E96B45F0012192C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chad Williams";
+				TargetAttributes = {
+					6346B17D1E96B45F0012192C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = USX5JPN9EV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6346B1791E96B45F0012192C /* Build configuration list for PBXProject "DM-SolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6346B1751E96B45F0012192C;
+			productRefGroup = 6346B17F1E96B45F0012192C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6346B17D1E96B45F0012192C /* DM-SolarSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6346B17C1E96B45F0012192C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6346B1A61E9707500012192C /* earth.png in Resources */,
+				6346B1AE1E9707500012192C /* venus.png in Resources */,
+				6346B1AD1E9707500012192C /* uranus.png in Resources */,
+				6346B18C1E96B45F0012192C /* LaunchScreen.storyboard in Resources */,
+				6346B1A91E9707500012192C /* mercury.png in Resources */,
+				6346B1A81E9707500012192C /* mars.png in Resources */,
+				6346B1AC1E9707500012192C /* saturn.png in Resources */,
+				6346B1891E96B45F0012192C /* Assets.xcassets in Resources */,
+				6346B1AB1E9707500012192C /* pluto.png in Resources */,
+				6346B1AA1E9707500012192C /* neptune.png in Resources */,
+				6346B1A71E9707500012192C /* jupiter.png in Resources */,
+				6346B1871E96B45F0012192C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6346B17A1E96B45F0012192C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6346B1981E96B9300012192C /* PlanetController.swift in Sources */,
+				6346B1941E96B4E90012192C /* PlanetListViewController.swift in Sources */,
+				6346B1821E96B45F0012192C /* AppDelegate.swift in Sources */,
+				6346B19C1E96F1260012192C /* PlanetDetailViewController.swift in Sources */,
+				6346B19A1E96EA9A0012192C /* Planet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6346B1851E96B45F0012192C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6346B1861E96B45F0012192C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6346B18A1E96B45F0012192C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6346B18B1E96B45F0012192C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6346B18E1E96B45F0012192C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6346B18F1E96B45F0012192C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6346B1911E96B45F0012192C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = USX5JPN9EV;
+				INFOPLIST_FILE = "DM-SolarSystem/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.voidarray.DM-SolarSystem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6346B1921E96B45F0012192C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = USX5JPN9EV;
+				INFOPLIST_FILE = "DM-SolarSystem/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.voidarray.DM-SolarSystem";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6346B1791E96B45F0012192C /* Build configuration list for PBXProject "DM-SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6346B18E1E96B45F0012192C /* Debug */,
+				6346B18F1E96B45F0012192C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6346B1901E96B45F0012192C /* Build configuration list for PBXNativeTarget "DM-SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6346B1911E96B45F0012192C /* Debug */,
+				6346B1921E96B45F0012192C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6346B1761E96B45F0012192C /* Project object */;
+}
